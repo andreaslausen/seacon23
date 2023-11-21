@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PizzaOnline.API\PizzaOnline.API.csproj" />
+    <ProjectReference Include="..\PizzaOnline.Core.Application\PizzaOnline.Core.Application.csproj" />
+    <ProjectReference Include="..\PizzaOnline.Persistence.Memory\PizzaOnline.Persistence.Memory.csproj" />
+  </ItemGroup>
+
+</Project>
